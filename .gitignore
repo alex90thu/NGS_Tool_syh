@@ -1,0 +1,37 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# 用户反馈文件
+feedbacks.json
+
+# 临时文件和日志
+*.log
+*.tmp
+*.swp
+*~
+
+# IDE配置文件
+.vscode/
+.idea/
+*.iml
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 大文件（可根据需要调整）
+*.html
+fastp.json
+
+# 测试文件
+*.test
+demo_grid.html
