@@ -164,7 +164,7 @@ NGS_Tool_syh/
 
 ## 🗂 更新日志 (Changelog)
 
-2025-12-31 — v0.9.0
+2025-12-31 — v0.9.0 by alex90thu
 - 集成 `WORF-Seq` 前后端改进：
   - 将 `worf_seq.bash` 改为在 `/tmp/worf_seq_<name>_<ts>` 写入临时结果，避免写入只读目录。
   - 为缺失工具（fastp/minimap2/samtools）添加兜底逻辑和复用临时输出的能力，减少重复计算。
@@ -183,16 +183,6 @@ NGS_Tool_syh/
   - 修复 `barcodes.py` 中的条码文件路径读取，改为项目相对路径。
   - 替换已弃用的 `st.experimental_rerun` 为 `st.rerun`。
 
-请在 Release 页或 CHANGELOG 文件中查看更早历史记录。
-
-## 🧑‍💻 贡献者 (Contributors)
-
-- **guozehua** — 主要贡献者：
-  - 修复并重构 `WORF-Seq` 流程与前端交互逻辑；
-  - 添加 NCBI 基因检索、收藏夹和日志功能；
-  - 改善临时目录策略与工具缺失的容错处理；
-  - 更新 `environment.yml`，便于在一致的 conda 环境中运行（`ngs_tools`）。
-
-其他贡献者欢迎在项目中署名并通过 Pull Request 补充。
+请在 Release 页或 CHANGELOG 文件中查看更早历史记录。其他贡献者欢迎在项目中署名并通过 Pull Request 补充。
 
 # NGS_Tool_syh
