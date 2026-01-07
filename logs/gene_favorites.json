@@ -7,5 +7,23 @@
     "end": 31272091,
     "center": 31270419,
     "timestamp": "2025-12-31 14:43:04"
+  },
+  {
+    "symbol": "HLA-A",
+    "organism": "Homo sapiens",
+    "chromosome": "chr6",
+    "start": 29942531,
+    "end": 29945869,
+    "center": 29944200,
+    "timestamp": "2025-12-31 18:16:04"
+  },
+  {
+    "symbol": "",
+    "organism": "Homo sapiens",
+    "chromosome": "chr6",
+    "start": 31268748,
+    "end": 31272091,
+    "center": 31270419,
+    "timestamp": "2026-01-04 10:48:34"
   }
 ]
